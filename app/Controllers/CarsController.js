@@ -17,6 +17,7 @@ export class CarsController {
 
     // NOTE Sets up a listener to be triggered each time a change occurs to the cars array causing the page to re-render each of the cars 
     appState.on('cars', drawCars)
+
   }
 
 
@@ -47,7 +48,7 @@ export class CarsController {
       let formData = getFormData(form)
 
       carsService.addCar(formData)
-      
+
       // @ts-ignore
       form.reset()
 

@@ -39,9 +39,6 @@ export class Car {
 
 
 
-
-
-
 }
 
 
